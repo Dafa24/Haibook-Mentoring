@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header .logo{
+    margin-left: 75px;
+    position: absolute;
+    margin-top: 30px;
+}
+.header ul li {
+	display: inline-block;
+}
+.nav {
+	width: 20%;
+	margin: 5px 30px;
+	margin-top: 30px;	
+	display: inline-block;
+	float: right;
+}
+.nav:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.banner h1 {
+	position: absolute;
+	width: 463px;
+	height: 130px;
+	left: 180px;
+	top: 225px;
+
+	font-family: Amaranth;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 130%;
+	color: #413960;
+}
+.banner p {
+	position: absolute;
+	width: 381px;
+	height: 96px;
+	left: 180px;
+	top: 375px;
+	color: #7D7791;	
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 180%;
+}
+.photo .image1 {
+	position: absolute;
+	width: 172px;
+	height: 200px;
+	left: 758px;
+	top: 164px;
+	filter: drop-shadow(0px 4px 60px rgba(98, 85, 165, 0.1));
+	border-radius: 10px;
+}
+.photo .image2 {
+	position: absolute;
+	width: 348px;
+	height: 396px;
+	left: 838px;
+	top: 204px;
+	border-radius: 20px;
+}
+.photo .image3 {
+	position: absolute;
+	width: 178px;
+	height: 226px;
+	left: 1142px;
+	top: 404px;
+	filter: drop-shadow(0px 4px 60px rgba(98, 85, 165, 0.1));
+	border-radius: 10px;
+}
+.aboutus .container h4{
+	position: absolute;
+	width: 83px;
+	height: 21px;
+	left: 679px;
+	top: 833px;
+	color: #6255A5;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 130%;
+	text-align: center;
+}
+.aboutus .container h2 {
+	position: absolute;
+	width: 269px;
+	height: 61px;
+	left: 585px;
+	top: 858px;
+	color: #413960;
+	font-family: Amaranth;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 170%;
+	text-align: center;
+}
+.aboutus .container h3 {
+	position: absolute;
+	width: 389px;
+	height: 48px;
+	left: 180px;
+	top: 1035px;
+	color: #413960;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 170%;
+}
+.aboutus .container p {
+	position: absolute;
+	width: 459px;
+	height: 224px;
+	left: 180px;
+	top: 1099px;
+	color: #7D7791;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 180%;
+}
+.aboutus .container img{
+	position: absolute;
+	width: 540px;
+	height: 366px;
+	left: 720px;
+	top: 996px;
+
+}
